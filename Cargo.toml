@@ -1,5 +1,5 @@
 [package]
-name = "rusty_todo"
+name = "todo"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,3 +7,7 @@ edition = "2021"
 
 [dependencies]
 console = "0.15.8"
+
+[[bin]]
+name = "todo"
+path = "src/main.rs"
