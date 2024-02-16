@@ -62,7 +62,7 @@ fn main() {
             buf_writer.flush().expect("Unable to flush buffer");
         }
 
-        "del" => {
+        "rm" => {
             let file = OpenOptions::new()
                 .read(true)
                 .open(filename)
